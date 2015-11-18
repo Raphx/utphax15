@@ -1,0 +1,33 @@
+<html>
+<link href="/julia/hacker.css" rel="stylesheet">
+  <head>
+    <title>Teka-Teki Game</title>
+  </head>
+  <body>
+    <h1>Welcome to the Teka-Teki Game!</h1>
+    <p>
+      Guess the secret combination below, and if you get it right,
+      you'll get the flag
+    </p>
+    <?php
+      $filename = '#PROTECTED';
+      extract($_GET);
+      if (isset($cubaan)) {
+        $combination = trim(file_get_contents($filename));
+        if ($cubaan === $combination) {
+          echo "<p>You are an elite . What kind of password is " .
+               " $combination!?</p>";
+          $flag = file_get_contents('#PROTECTED');
+          echo "<p>The flag is" .
+               " $flag</p>";
+        } else {
+          echo "<p>Incorrect! The secret combination is not $cubaan</p>";
+        }
+      }
+    ?>
+    <form action="#" method="GET">
+      <p><input type="text" name="cubaan"></p>
+      <p><input type="submit" value="Guess!"></p>
+    </form>
+  </body>
+</html>
