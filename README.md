@@ -2,7 +2,9 @@
 
 CTF write-ups for UTPHAX'15 hacking competition.
 
-Homepage: [Link](https://utphax.cyberhax.club)
+Official site: [Link](https://utphax.cyberhax.club)
+
+Write-up contributors: Grumpy Unicorn, YTL, JAW-X64, LuLzHax
 
 ## To-do
 * Update write-ups for round 4
