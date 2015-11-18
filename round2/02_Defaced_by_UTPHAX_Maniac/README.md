@@ -3,9 +3,7 @@
 **Points:** 200
 **Description:** 
 
-```
-Hate those defacers. Find me his track! http://kekwa.utphax.my/YmZlZjg5OTQwODQ2ZDM3YThlZmVkMzBm/deface_proof.7z
-```
+> Hate those defacers. Find me his track! http://kekwa.utphax.my/YmZlZjg5OTQwODQ2ZDM3YThlZmVkMzBm/deface_proof.7z
 
 ## Write-up
 
