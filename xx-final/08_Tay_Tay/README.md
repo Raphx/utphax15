@@ -11,7 +11,7 @@ http://kekwa.utphax.my/099c48df51343379a3f79620cbcffb84b0a38c24.E01
 
 This challenge is quite different. We were given a very huge file with an extension of `.E01`. The `file` command outputs the following:
 
-```
+```bash
 $ file 099c48df51343379a3f79620cbcffb84b0a38c24.E01 
 099c48df51343379a3f79620cbcffb84b0a38c24.E01: EWF/Expert Witness/EnCase image file format
 ```

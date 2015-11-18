@@ -7,13 +7,13 @@
 http://kekwa.utphax.my/8891b3cde3085a3fe8706585f78f162420f98177
 Very simple.
 
-# Write-up
+## Write-up
 
 A PE32 binary slapped in the face as soon as round 1 started ;)
 
 Execute the program, and we see that it is asking for a secret key input and performs some checks on the input after it has been entered.
 
-We use Ollydbg for this challenge. Set a breakpoint after the `gets` function, and step through each of the innstruction one-by-one.
+We use Ollydbg for this challenge. Set a breakpoint after the `gets()` function, and step through each of the innstruction one-by-one.
 
 In general, the program will move one character into `EAX`, XOR it with `0x41`, and compare the result with a hardcoded hex value. If both the operands are not the same, it will terminate.
 

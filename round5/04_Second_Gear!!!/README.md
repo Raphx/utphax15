@@ -15,7 +15,7 @@ Run it in Ollydbg and we can see that it is executing almost the same operation 
 
 Looking at the assembly instructions just before the `printf()` function is called, we see the following:
 
-```
+```asm
 00401511  |. C64424 3B 76   MOV BYTE PTR SS:[ESP+3B],76              ; ||
 00401516  |. C64424 3C 74   MOV BYTE PTR SS:[ESP+3C],74              ; ||
 0040151B  |. C64424 3D 76   MOV BYTE PTR SS:[ESP+3D],76              ; ||

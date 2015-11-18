@@ -9,14 +9,14 @@
 
 Spy me, intuition tells me it is a .NET assembly. Nevertheless, let's `file` it.
 
-```
+```bash
 $ file SpyMe.exe 
 SpyMe.exe: PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
 ```
 
 Yup, it's .NET, now decompile it with ILSpy (this is where my intuition comes from). Scroll down at the relevant class, and this shows up:
 
-```
+```c#
 private void button1_Click(object sender, EventArgs e)
         {
             string str = "the flag";

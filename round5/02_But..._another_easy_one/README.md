@@ -3,7 +3,9 @@
 **Points:** 100
 **Description:**
 
-> How many valid pattern locks can be made based on the diagram? Download the file at http://kekwa.utphax.my/MzFlMjYyYjBhODkwZjEwN2U4YjcyYzM1/pattern_lock.png
+```
+How many valid pattern locks can be made based on the diagram? Download the file at http://kekwa.utphax.my/MzFlMjYyYjBhODkwZjEwN2U4YjcyYzM1/pattern_lock.png
+```
 
 ## Write-up
 

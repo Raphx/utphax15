@@ -9,7 +9,7 @@
 
 A spreadsheet document, well, is just another archive file. Extract it normally just like an archive file. There are several interesting items here, `makethisfilecorrupt.txt` and the directory `New folder`. We tried `strings` command on the text file:
 
-```
+```bash
 $ strings makethisfilecorrupt.txt | less
 maybe you should remove this?
 flag is inside

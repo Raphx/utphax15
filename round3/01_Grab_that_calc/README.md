@@ -11,7 +11,7 @@ http://kekwa.utphax.my/06b1e9e77227cba3b8886fbd9511952cc688b6b3
 
 This is another reversing challenge, but it is quite simple. Let's Ollydbg it.
 
-```
+```asm
 0040152E  |. 8B4424 1C      MOV EAX,DWORD PTR SS:[ESP+1C]            ; ||
 00401532  |. 35 FECAADDE    XOR EAX,DEADCAFE                         ; ||
 00401537  |. 894424 1C      MOV DWORD PTR SS:[ESP+1C],EAX            ; ||
