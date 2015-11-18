@@ -33,4 +33,4 @@ str_replace("end","then",$abc);babsfasmfa;smfliqhworiho28yhn19pyc249y1mc4o1j,xpj
 str_replace("sounds","replace",$abc);
 ```
 
-After a looong while, we figured out that it is replacing the strings in a lyric for the MP3 song that was playing in the background. After replacing the strings in the lyric, and looking at the end of each line (as pointed by the hint for the challenge), we got the flag `Nanami_is_cute`.
+After a looong while, we figured out that it is replacing the strings in a lyrics for the MP3 song that was playing in the background. After replacing the strings in the lyrics, and looking at the end of each line (as pointed by the hint for the challenge), we got the flag `Nanami_is_cute`.
