@@ -7,4 +7,4 @@
 
 ## Write-up
 
-Nope, we can't click it, so we didn't solve it :(
+Nope, we couldn't click it, so we didn't solve it :(
